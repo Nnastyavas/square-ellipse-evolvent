@@ -17,7 +17,6 @@ namespace _1
         public Form1()
         {
             InitializeComponent();
-            
         }
        
         private void Form1_Load(object sender, EventArgs e)
@@ -26,6 +25,7 @@ namespace _1
             button1.Text = "Запуск";
             button2.Text = "Показать картинку";
             comboBox1.Text = "Выбор направления";
+            comboBox1.SelectedIndex = 0;
             label1.Text = "Выбор цвета заливки фигуры производится в диалоговом окне после запуска";
             label3.Text = "Введите размер стороны квадрата";
             label2.Text = "Введите размер эллипса";
@@ -33,15 +33,25 @@ namespace _1
             label5.Text = "Большая полуось (a)";
             label6.Text = "Малая полуось (b)";
             comboBox2.Text = "Сколько раз пройти по траектории?";
+            comboBox2.SelectedIndex = 0;
             comboBox3.Text = "Шаг перемещения объекта";
+            comboBox3.SelectedIndex = 0;
             comboBox4.Text = "Цвет траектории";
+            comboBox4.SelectedIndex = 0;
             comboBox5.Text = "Цвет контура квадрата";
+            comboBox5.SelectedIndex = 0;
             comboBox6.Text = "Толщина контура квадрата";
+            comboBox6.SelectedIndex = 0;
             comboBox7.Text = "Толщина контура траектории";
+            comboBox7.SelectedIndex = 0;
             comboBox8.Text = "Тип линии квадрата";
+            comboBox8.SelectedIndex = 0;
             comboBox9.Text = "Тип линии траектории";
+            comboBox9.SelectedIndex = 0;
             comboBox10.Text = "Прозрачность заливки";
+            comboBox10.SelectedIndex = 0;
             comboBox11.Text = "Какую часть квадрата залить?";
+            comboBox11.SelectedIndex = 0;
         }
         private void Paint_Ellipse(int cX, int cY, int a, int b)
         {
